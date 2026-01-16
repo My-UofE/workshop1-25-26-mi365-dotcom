@@ -30,7 +30,7 @@ def process_guess(letter, board, word):
     if found:
         print(f"Good job! '{letter}' is in the word")
         return True
-    else;
+    else:
         print(f"Sorry, '{letter}' is not in the word ")
         return False
 
